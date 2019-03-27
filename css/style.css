@@ -1,0 +1,148 @@
+body {
+    
+    display: flex;
+    min-height: 100vh;
+}
+
+/* partie gauche */
+
+header {
+    background: transparent url(../images/student.jpg) center/cover;
+    color: white;
+    width: 50vw; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 1.2em;
+}
+
+/* header, partie haute */
+
+h1 {
+    text-transform: uppercase;
+    margin: 1em 0;
+    display: flex; 
+    align-items: flex-start; 
+    align-self: flex-start; 
+}
+
+#logo {
+    width: 30px;
+    margin-right: 15px;
+}
+
+h1 span {
+    line-height: .9em; 
+    width: 40%;
+    max-width: 260px;
+}
+
+/* header, partie centrale */
+
+header section {
+    width: 80%;
+    text-align: right;
+}
+
+.detail {
+    font-size: .5em;
+    font-style: italic;
+}
+
+header p {
+    font-size: .8em;
+    font-weight: bold;
+}
+
+/* header, partie basse */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline; 
+    font-size: .8em;
+    font-weight: bold;
+    padding: 0 1em;
+}
+
+header nav a {
+    color: inherit; 
+}
+
+/* partie droite */
+
+main {
+    background-color: #f9f9f9;
+    width: 50vw;
+}
+
+#main-title {
+    text-transform: none;
+    margin: 1em;
+    font-size: 24px;
+}
+
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article.post {
+    background-color: white;
+    border: 1px solid #f0f0f0;
+    padding: 1.5em;
+    width: 50%;
+}
+
+a.badge {
+    text-transform: uppercase;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: .8em;
+    background-color: grey;
+}
+
+.post-news a.badge {
+    background-color: #98DC62;
+}
+
+.post-team a.badge {
+    background-color: #DC5E53;
+}
+
+.post-work a.badge {
+    background-color: #0766F0;
+}
+
+.post-title {
+    margin: 1em 0;
+    font-size: 1.5em;
+}
+
+.meta {
+    font-size: .8em;
+    margin: 1em 0;
+}
+
+.meta-icon {
+    width: 2em;
+    margin-right: 1em;
+}
+
+.meta-date {
+    color: #999;
+}
+
+.post p {
+    font-size: .8em;
+}
+
+.post a {
+    font-size: .8em;
+    font-weight: bold;
+}
